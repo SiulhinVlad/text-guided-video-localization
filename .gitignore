@@ -35,3 +35,4 @@ checkpoints/*
 *.log
 *.out
 *.toc
+experiments/
