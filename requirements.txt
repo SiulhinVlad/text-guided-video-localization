@@ -1,0 +1,13 @@
+# Requires Python >= 3.10
+# Verified with Python 3.11.9 on 2026-08-26.
+torch==2.5.1
+transformers==4.57.1
+Pillow==12.0.0
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.0
+tqdm==4.67.1
+datasets==4.8.5
+opencv-python==4.11.0.86
+fiftyone==1.15.0
+yt-dlp==2026.3.17

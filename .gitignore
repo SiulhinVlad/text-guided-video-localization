@@ -1,0 +1,37 @@
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and editor settings
+.venv/
+.env
+.idea/
+.vscode/
+
+# Generated datasets, outputs, and caches
+data/
+outputs/
+.fiftyone_config/
+.hf_cache/
+.torch_cache/
+
+# Model files; retain only the two published final checkpoints
+*.pt
+*.pth
+checkpoints/*
+!checkpoints/xclip_segment_reranker_v2_2000videos.pt
+!checkpoints/xclip_context_reranker_v1.pt
+
+# Large local media
+*.mp4
+*.avi
+*.mov
+
+# LaTeX and command output
+*.aux
+*.log
+*.out
+*.toc
